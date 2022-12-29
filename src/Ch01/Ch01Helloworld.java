@@ -2,7 +2,7 @@ package Ch01;
 //패키지명(폴더와 유사)
 //';' : 문법의 마침표
 
-import java.util.*;
+//import java.util.*;
 
 public class Ch01Helloworld		//클래스영역 - 객체지향 문법 적용단위 
 {
