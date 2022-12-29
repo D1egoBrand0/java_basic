@@ -11,6 +11,7 @@ public class Ch01Helloworld		//클래스영역 - 객체지향 문법 적용단�
 	{
 //		메서드란?(방법, 기능) : 작업수행을 하는데 필요한 여러코드들을 묶어서 실행하는데 사용되는 단위
 		System.out.println("HELLO WORLD!");
+		System.out.println("HELLO WORLD!");
 		System.out.println("나는 행복합니다 이글스라 행복합니다");
 //		괄호가 붙으면 대부분 함수다
 //		main 메서드		: 최초 실행 함수. 운영체제와 연결되는 함수
