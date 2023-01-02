@@ -56,9 +56,76 @@ public class C04변수자료형 {
 		
 		
 //		-----------------------------------
-//		문자형 
-//		단일문자 char 2byte 정수.		ex)..유니코드
-//		
+//		단일문자 char 2byte 정수.		ex)..아스키코드, 유니코드
+		char ch1 ='a';
+		System.out.println(ch1);
+		System.out.println((int)ch1);
+		
+		char ch2 = 98;
+		System.out.println(ch2);
+		System.out.println((int)ch2);
+	
+		char ch3 = 'b'+1;
+		System.out.println(ch3);
+		System.out.println((int)ch3);
+	
+		byte ch4 = 'c'+2; 
+		System.out.println((char)ch4);
+		System.out.println(ch4);
+		
+		char ch5 = '가';
+		char ch6 = 0xac00;
+		System.out.printf("%c %c\n",ch5,ch6);
+		
+//		\\u :유니코드 값 이스케이프문자
+//		U+1100~U+11FF 사이에 한글 자모 영역, U+AC00~U+D7AF 사이의 한글 소리 마디 영역
+		System.out.printf("%c\n",'\uD7fb');
+		char ch7 = 65532;
+		System.out.printf("%c\n", ch7);
+		
+		
+		
+//		----------------------------		
+//		기본자료형(원시타입)
+//		byte, short, double, long
+
+//		문자형(클래스자료형) 
+//		클래스자료형으로 만든 변수는 '참조변수'라고 하고 
+//		참조변수는 데이터가 저장된 위치정보(메모리주소값)이 저장된다.
+		int i1 = 10;
+		String name= "홍길동";
+		String job = "프로그래머";
+		System.out.println(name);
+		System.out.println(job);
+		
+		
+//		-----------------------------
+//		boolean 논리형. true, false만 저장
+		boolean flag = (10<5);		//참참참
+		if(flag) {
+			System.out.println("\n참참참");
+		} else {
+			System.out.println("\n거짓거짓거짓");
+		}
+//		double v2 = 1e2;
+//		float v3 =1e2f;
+//		float var = 100.0f; 	
+//		System.out.println();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
