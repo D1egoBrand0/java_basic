@@ -20,6 +20,7 @@ public class C05상수 {
 		System.out.println(n1);
 		System.out.println(n2);
 		
+		
 	}
 
 }

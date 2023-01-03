@@ -110,28 +110,7 @@ public class C04변수자료형 {
 //		double v2 = 1e2;
 //		float v3 =1e2f;
 //		float var = 100.0f; 	
-//		System.out.println();
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		System.out.println();
 		
 	}
 
