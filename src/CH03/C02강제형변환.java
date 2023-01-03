@@ -22,9 +22,9 @@ public class C02강제형변환 {
 		
 //		char vs short
 		char ch = '가';
-		short ch2 = (short)ch;    // 왜안되는가? 
+		short ch2 = (short)ch;    // 왜안되는가? short는 양수범위 2^16이지만 char는 +- 2^16이다. 
 		System.out.printf("%d %d\n", (int)ch,ch2);
-		
+	
 	}
 
 }
