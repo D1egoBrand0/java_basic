@@ -16,7 +16,8 @@ public class C01 {
 		
 		System.out.printf("%d + %d + %d + %d = %d\n",num1,num2,num3,num4,sum);
 		scan.close();
-
+//		스캐너 제거. 메모리 누수현상이 발생할수 있기 때문에.
+//		스캐너 쓸때 여러개 있으면 스페이스바 누르면 같이 사용할수 있다.
 		
 	}
 
