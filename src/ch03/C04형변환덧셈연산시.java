@@ -1,4 +1,4 @@
-package CH03;
+package ch03;
 
 public class C04형변환덧셈연산시 {
 

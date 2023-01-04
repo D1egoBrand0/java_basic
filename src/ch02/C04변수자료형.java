@@ -1,4 +1,4 @@
-package Ch02;
+package ch02;
 
 public class C04변수자료형 {
 
@@ -95,6 +95,7 @@ public class C04변수자료형 {
 		int i1 = 10;
 		String name= "홍길동";
 		String job = "프로그래머";
+		System.out.println(i1);
 		System.out.println(name);
 		System.out.println(job);
 		

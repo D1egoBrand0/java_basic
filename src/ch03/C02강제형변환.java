@@ -1,4 +1,4 @@
-package CH03;
+package ch03;
 
 public class C02강제형변환 {
 

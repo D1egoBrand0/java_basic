@@ -1,4 +1,4 @@
-package Ch04;
+package ch04;
 
 import java.util.Scanner;
 // ctr + shift + o 누르면 필요한 라이브러리가 자동으로 들어감

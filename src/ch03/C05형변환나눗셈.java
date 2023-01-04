@@ -1,4 +1,4 @@
-package CH03;
+package ch03;
 
 public class C05형변환나눗셈 {
 

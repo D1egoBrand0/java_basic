@@ -5,7 +5,9 @@
 </p>
 
 <ul>
-    <li> Ch1 자바 소개 및 print문법
-    <li> Ch2 자바의 기본 자료형
-    <li> Ch3 자료의 형변환
+    <li> ch1 자바 소개 및 print문법
+    <li> ch2 자바의 기본 자료형
+    <li> ch3 자료의 형변환
+    <li> ch4 스캐너
+    <li> ch5 연산자
 </ul>
