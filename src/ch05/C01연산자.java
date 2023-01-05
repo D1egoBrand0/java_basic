@@ -1,5 +1,7 @@
 package ch05;
 
+import java.util.Scanner;
+
 public class C01연산자 {
 
 	public static void main(String[] args) {
@@ -18,7 +20,24 @@ public class C01연산자 {
 //		공간 = 값 (우선처리)
 //		문제
 //		두 정수를 입력받아 두 수의 합/곱/차를 출력하는 프로그램을 만듭니다.
-//		Scanner를 사용합니다.
+//		Scanner를 사용합니다.		
+		Scanner sc = new Scanner(System.in);
+
+        System.out.print("첫번째 정수 =");
+        int first = sc.nextInt();
+        System.out.print("두번째 정수 =");
+        int second = sc.nextInt();
+        int sum = first + second;
+        int minus = first - second;
+        int multi = first * second;
+
+        System.out.printf("\n%d + %d = %d", first, second, sum);
+        System.out.printf("\n%d - %d = %d", first, second, minus);
+        System.out.printf("\n%d * %d = %d", first, second, multi);
+        sc.close();
+
+
+		
 		
 //		복합대입연산자(선택)
 		System.out.println();
