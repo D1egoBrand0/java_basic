@@ -4,7 +4,7 @@ import java.util.*;
 
 public class C02나머지연산자 {
 
-	public static void main(String[] args) throws InterruptedException  {
+	public static void main(String[] args) throws Exception  {
 		Scanner sc = new Scanner(System.in);
 ////		1. 짝홀수 구분 - (n % 2) == 0 or 1 boolean과 동일하다
 //		int num = sc.nextInt();
@@ -27,14 +27,14 @@ public class C02나머지연산자 {
 //		n % 10 = 0~9
 //		n % 100 = 0~99
 //		난수생성
-////		01. 랜덤객체 생성
+//		01. 랜덤객체 생성
 //		Random rnd = new Random();
 //		while (true) {
 //			System.out.println(rnd.nextInt(5));		// 0~4까지 정수 랜덤 출력
 //			Thread.sleep(1000);
 //		}
-//		
-////		02. Math.random()사용
+		
+//		02. Math.random()사용
 //		while (true) {
 //			System.out.println( (int)(Math.random()*100)%45+1 );	//정수 45까지
 //			Thread.sleep(100);
