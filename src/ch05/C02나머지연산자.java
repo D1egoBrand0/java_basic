@@ -33,12 +33,14 @@ public class C02나머지연산자 {
 //			System.out.println(rnd.nextInt(5));		// 0~4까지 정수 랜덤 출력
 //			Thread.sleep(1000);
 //		}
+//		무한반복이 실행되면 아래 적은 코드들은 모두 deadCode가 된다. 주석필수
 		
 //		02. Math.random()사용
 //		while (true) {
 //			System.out.println( (int)(Math.random()*100)%45+1 );	//정수 45까지
 //			Thread.sleep(100);
 //		}
+//		무한반복이 실행되면 아래 적은 코드들은 모두 deadCode가 된다. 주석필수
 		
 ////		4. 자리수 구분
 //		int numx = 56789;
@@ -69,8 +71,10 @@ public class C02나머지연산자 {
 		int num3 = sc.nextInt();
 		int sum = num1 + num2 + num3;
 		String result2 = (sum %2==0 && sum%5 ==0) ? "참":"거짓";
-		System.out.printf("합계는 %d이고, 결과는 %s입니다.",sum,result2);
-		
+		System.out.printf("합계는 %d이고, 결과는 %s입니다.\n",sum,result2);
+//		삼항연산의 중복
+		String result3 = (sum %2==0 && sum%5 ==0) ? "true" : (sum %2==0 || sum%5 ==0) ? "true" : "false" ;
+		System.out.printf("합계는 %d이고, 결과는 %s입니다.",sum,result3);
 		sc.close();
 		
 		

@@ -1,5 +1,7 @@
 package ch06;
 
+import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
 
 public class c01IF문 {
@@ -50,31 +52,32 @@ public class c01IF문 {
 		}else {
 			System.out.println(number1 + "은/는 3의 배수아니다");
 		}
-		
-		if(number1>number2) {
-			System.out.println(number1+"이/가 더 크다");
-		}else if (number1<number2) {
-			System.out.println(number2+"이/가 더 크다");
-		}
+//		
+//		if(number1>number2) {
+//			System.out.println(number1+"이/가 더 크다");
+//		}else if (number1<number2) {
+//			System.out.println(number2+"이/가 더 크다");
+//		}
 		
 		
 		
 		if (number1>=number2 && number1 >=number3) {
 			System.out.println(number1+"이/가 가장 큰 수");
+		} else if (number1==number2 && number1==number3) {
+		 	System.out.println("동일한데?");
 		} else if(number2>=number1 && number2>=number3) {
 			System.out.println(number2+"이/가 가장 큰 수");
 		} else if(number3>=number1 && number3>=number1) {
 			System.out.println(number3+"이/가 가장 큰 수");
-		} else if (number1==number2 && number2==number3) {
-			System.out.println("동일한데?");
-		}
+		} 
 		
+		List<Integer> list = Arrays.asList(number1,number2,number3);
+		System.out.println(list);
 		
-//		
-//		for (int i = 0; i < 3; i++) {
+//		for (int i = 0; i < list.length; i++) {
 //			int save = 0;
-//			if (number1>number2) {
-//				save = number1;
+//			if (list[i]>list[i+1]) {
+//				save = list[i];
 //			}
 //			return save;
 //		}
