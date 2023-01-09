@@ -10,4 +10,6 @@
     <li> ch3 자료의 형변환
     <li> ch4 스캐너
     <li> ch5 연산자
+    <li> ch6 가정문 (if, switch)
+    <li> ch7 반복문 (while)
 </ul>
