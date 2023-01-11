@@ -21,7 +21,7 @@ class C04Person {
 		System.out.printf("%s\n%d\n%.1f\n%.1f\n",name,age,height,weight);			
 	}
 }
-public class C04PersonMain2 {
+public class C04PersonMain {
 
 	public static void main(String[] args) {
 		C04Person hong = new C04Person();
