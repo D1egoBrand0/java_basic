@@ -59,6 +59,24 @@ public class C04For {
 //		}
 		//별찍기~
 		
+		int i = 0;
+		int j = 0;
+//		for (i = 0; i < 5; i++) {
+//			for (j = 0; j <= i; j++) {
+//				System.out.print("*");
+//			}
+//			System.out.println("");
+//		}
+		for (i = 5; i > 0; i--) {
+			for (j = 0; j < 2*i-1; j++) {
+					System.out.print("*");
+					if(i==j) {
+						System.out.print(" ");
+					}
+			}
+			
+			System.out.println();
+		}
 		
 		sc.close();
 		
