@@ -9,6 +9,10 @@ class C02Person {
 	private double height;	//키
 	private int salary;		//급여정보
 	
+//	변수정하는 룰 set부분은 무조건 set을 적고 get은 무조건 get적어준다.
+//	그리고 변수를 덧붙여준다.
+//	setName()
+	
 	
 //	getter & setter 동시 구현
 //	우클릭 source, generate getters and setters

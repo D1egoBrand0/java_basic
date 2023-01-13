@@ -9,6 +9,10 @@ class C03Simple{
 	int y;
 	C03Simple getThis() {
 		return this;
+		
+//		필드는 private로 메서드는 public으로 사용한다.
+//		필드는 여기부분
+		
 	}
 }
 
