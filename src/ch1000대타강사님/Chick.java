@@ -1,4 +1,4 @@
-package ch100;
+package ch1000대타강사님;
 public class Chick{
 	int x;
 	int y;

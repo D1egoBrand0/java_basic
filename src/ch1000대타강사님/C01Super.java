@@ -1,4 +1,4 @@
-package ch100;
+package ch1000대타강사님;
 //상속과 멤버변수
 class Parent{
 	int x = 10;

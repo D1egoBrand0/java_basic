@@ -1,4 +1,4 @@
-package ch100;
+package ch1000대타강사님;
 
 class Person{
 	void breath() {

@@ -1,4 +1,4 @@
-package ch100;
+package ch1000대타강사님;
 
 //class test{
 //	private String name;
@@ -73,16 +73,16 @@ package ch100;
 
 class Student{
 	String name;
-	int ban, no, kor, eng, math;
+	private int ban, no, kor, eng, math;
 	
-	private int Total = kor + eng + math;
-	//	private int getTotal() {
-//		return kor + eng + math;
-//	};
-	private double Average = (double)Total/3;
-//	private double getAverage() {
-//		return (double)this.getTotal()/3;
-//	}
+//	 int Total = (int)(kor + eng + math);
+	public int getTotal() {
+		return kor + eng + math;
+	};
+//	private double Average = (double)Total/3;
+	public double getAverage() {
+		return (double)this.getTotal()/3;
+	}
 	
 	
 	public Student(String name, int ban, int no, int kor, int eng, int math) {
@@ -94,15 +94,18 @@ class Student{
 		this.eng = eng;
 		this.math = math;
 	}
-	public double getAverage() {
-		return Average;
-	}
-	public void setAverage(double average) {
-		Average = average;
-	}
-	public void setTotal(int total) {
-		Total = total;
-	}
+//	public double getAverage() {
+//		return Average;
+//	}
+//	public void setAverage(double average) {
+//		Average = average;
+//	}
+//	public void setTotal(int total) {
+//		this.Total = total;
+//	}
+//	public int getTotal() {
+//		return Total;
+//	}
 	public String getName() {
 		return name;
 	}
@@ -148,16 +151,17 @@ class Student{
 public class C100test {
 
 	public static void main(String[] args) {
-		Student stu = new Student(null, 0, 0, 0, 0, 0);
-		stu.name = "김";
-		stu.ban =1;
-		stu.no = 1;
-		stu.eng = 100;
-		stu.kor = 100;
-		stu.math = 50;
+		Student stu = new Student("김", 1, 1, 100, 95, 66);
+//		stu.name = "김";
+//		stu.ban =1;
+//		stu.no = 1;
+//		stu.eng = 100;
+//		stu.kor = 100;
+//		stu.math = 50;
 		System.out.println(stu.name);
-//		System.out.println(stu.getTotal());
-//		System.out.println(stu.getAverage());
+//		stu.setTotal(500);
+		System.out.println(stu.getTotal());
+		System.out.println(stu.getAverage());
 		
 		
 	}
