@@ -10,6 +10,7 @@ class ArrayUtil {
 	   int [] newarr = new int [a.length+b.length];
 	   for (int i = 0; i < a.length; i++) {
 		   newarr[i] = a[i];
+		   
 		   newarr[i+a.length] = b[i];
 		   }
 	   return newarr;
