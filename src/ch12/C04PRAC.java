@@ -7,13 +7,14 @@ import java.util.stream.Stream;
 
 class ArrayUtil {
    public static int[] concat(int[] a, int[] b) {
-            /* 배열 a와 b를 연결한 새로운 배열 리턴 */
-	   Integer[] dest = Stream
-               .concat(Arrays.stream(a), Arrays.stream(b))
-               .toArray(Integer[]::new);
-	   
-	   
+	   int [] newarr = new int [a.length+b.length];
+	   for (int i = 0; i < a.length; i++) {
+		   newarr[i] = a[i];
+		   newarr[i+a.length] = b[i];
+		   }
+	   return newarr;
    }
+   
    public static void print(int[] a) {
       /* 배열 a 출력 */
 	  for(int t : a) {

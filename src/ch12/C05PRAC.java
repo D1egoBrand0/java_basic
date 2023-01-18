@@ -1,5 +1,5 @@
 package ch12;
-
+//
 class ShopService{
 	//	싱글톤 구현
 	String shopName;
@@ -11,9 +11,23 @@ class ShopService{
 			instance=new ShopService();	
 		return instance;
 	}
-	
-	
 }
+
+
+// 내가 따로 써봄. 왜 void를 안붙여도 될까?
+//class ShopService{
+//	String shopName;
+//	String manager;
+//	
+//	private static ShopService instance;
+//	private void ShopService() {};
+//	public static ShopService getInstance() {
+//		if (instance == null) {
+//			instance = new ShopService();
+//		}
+//		return instance;
+//	}
+//}
 
 public class C05PRAC {
 
