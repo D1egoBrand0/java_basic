@@ -14,7 +14,7 @@ class ShopService{
 }
 
 
-// 내가 따로 써봄. 왜 void를 안붙여도 될까?
+// 내가 따로 써봄. 왜 void를 안붙여도 될까? instance가 return되서?  
 //class ShopService{
 //	String shopName;
 //	String manager;
