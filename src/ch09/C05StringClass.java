@@ -25,6 +25,7 @@ public class C05StringClass {
 		System.out.println("str1 = str3 : " + (str1.equals(str3)));
 		System.out.println("str1 = str4 : " + (str1.equals(str4)));
 		System.out.println("str3 = str4 : " + (str3.equals(str4)));
+		str1.equals(str4);
 		
 	}
 
