@@ -11,5 +11,7 @@
     <li> ch4 스캐너
     <li> ch5 연산자
     <li> ch6 가정문 (if, switch)
-    <li> ch7 반복문 (while)
+    <li> ch7 반복문 (while, for)
+    <li> ch8 객체 - class, overloading, 접근한정자, 생성자
+  
 </ul>
